@@ -7,7 +7,7 @@
 
 Name:           %{?scl_prefix}apache-%{short_name}
 Version:        2.6
-Release:        19.1%{?dist}
+Release:        19.2%{?dist}
 Summary:        Provides a host of helper utilities for the java.lang API
 License:        ASL 2.0
 Group:          Development/Libraries
@@ -67,6 +67,9 @@ sed -i 's/\r//' *.txt *.html
 %doc LICENSE.txt NOTICE.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 2.6-19.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 2.6-19.1
 - Automated package import and SCL-ization
 
